@@ -1,0 +1,33 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.titleTask{
+    /* display: flex; */
+    text-align: left;
+    justify-content: start;
+}
+tr td{
+    height: 40px;
+    /* border: solid black 2px; */
+    /* align-items: start;  */
+    /* justify-content: flex-start; */
+}
+td{
+    max-width: 33%;
+    width: 33%;
+}
+table{
+    /* border: solid black 2px; */
+    justify-content: space-between;
+}
+
+td .btn{
+    width: 130px;
+}
+
+/* input{
+    border: none;
+    outline: none;
+} */
